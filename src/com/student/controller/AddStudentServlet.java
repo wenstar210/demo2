@@ -21,7 +21,6 @@ public class AddStudentServlet extends HttpServlet {
         String age=request.getParameter("age");
         String clazz=request.getParameter("clazz");
         String score=request.getParameter("score");
-
         Student stu=new Student();
         stu.setName(name);
         stu.setClazz(clazz);
